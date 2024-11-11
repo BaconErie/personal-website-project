@@ -1,0 +1,59 @@
+/* This is a CSS comment! You've seen this type of syntax before in JS, Java, C++, C, etc. */
+
+* {
+  font-family: "Open Sans";
+}
+
+body {
+  margin: 0px;
+}
+
+#top-blue {
+  /* We use # to specify that we are selecting an id */
+  background-color: #4285f4; /* Don't forget the semicolon */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 90vh;
+}
+
+#name-img-wrapper > * {
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  display: block;
+}
+
+#top-text {
+  color: white;
+  font-size: 50pt;
+  text-align: center;
+}
+
+#top-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 999px;
+}
+
+/* Styling for the bottom part */
+
+#bottom-wrapper {
+  padding: 40px;
+  display: flex;
+  gap: 30px;
+}
+
+.blue-rect {
+  height: 80vh;
+  flex: 1 1 0px;
+
+  text-wrap: wrap;
+
+  background-color: #4285f4;
+  color: white;
+  border-radius: 20px;
+
+  padding: 10px;
+}
